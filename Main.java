@@ -1,4 +1,5 @@
-package whiletrue;
+
+mypackage whiletrue;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptException;
@@ -42,6 +43,6 @@ public class Main {
     public static void main(String[] args) {
         Main myObj = new Main();
         myObj.invokeBrowser();
-
+        myObj.searchMagazine();
     }
 }
