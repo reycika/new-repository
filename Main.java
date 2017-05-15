@@ -24,7 +24,7 @@ public class Main {
             driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
             driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 
-            driver.get("http://www.mcstaging.net");
+            driver.get("http://www.whatever.net");
             searchMagazine();
         } catch (Exception e) {
             e.printStackTrace();
